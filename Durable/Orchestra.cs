@@ -24,7 +24,7 @@ namespace Durable
       {
         // Replace "hello" with the name of your Durable Activity Function.
         await context.CallActivityAsync<string>(ORCHESTRA_SAYHELLO, "Edgar"),
-        await context.CallActivityAsync<string>(ORCHESTRA_SAYHELLO, "R"),
+        await context.CallActivityAsync<string>(ORCHESTRA_SAYHELLO, "Richard"),
         await context.CallActivityAsync<string>(ORCHESTRA_SAYHELLO, "Knapp")
       };
 
